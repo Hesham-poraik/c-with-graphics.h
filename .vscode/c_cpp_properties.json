@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++",
+                "C:/TDM-GCC-32/lib/gcc/mingw32/10.3.0/include/c++/mingw32"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "windows-gcc-x86",
+            "compilerPath": "C:/TDM-GCC-32/bin/g++.exe",
+            "compilerArgs": [
+                "-lbgi",
+                "-lgdi32",
+                "-luser32",
+                "-lcomdlg32",
+                "-luuid",
+                "-loleaut32",
+                "-lole32"
+            ]
+        }
+    ],
+    "version": 4
+}

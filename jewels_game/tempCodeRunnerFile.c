@@ -1,0 +1,1 @@
+if (point == 0) break; 
